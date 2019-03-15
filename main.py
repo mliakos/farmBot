@@ -194,8 +194,8 @@ print('\nOpening Chrome...')
 driver.get("http://fyletikesmaxes.gr")
 
 
-user = 'Raper'#input('Enter your game username: \n')
-pwd = '28041997liakos'#getpass.getpass('Enter your game password: \n')
+user = input('Enter your game username: \n')
+pwd = getpass.getpass('Enter your game password: \n')
 sms_mode = 1#int(input('Enter 1 to notify via SMS for CAPTCHA and halt program or 0 to just halt the program: \n'))
 captcha_solve = 1#int(input('Select 1 to try and solve the CAPTCHA or 0 to just halt the program: \n'))
 dbc_mode = 0#int(input('Select 1 to implement DBC solving method in case of image or 0 to just try checking the checkbox.))
