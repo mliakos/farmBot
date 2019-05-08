@@ -11,7 +11,8 @@ User is asked to enter some inputs:
 
 The way this script works is simple:
 
-First it opens a window and prompts user to select the .txt file. Then it sorts all of the coordinates online, on twstats.com
+Deprecated: First it opens a window and prompts user to select the .txt file. Then it sorts all of the coordinates online, on twstats.com
+Sorting is implemented using in-script logic.
 
 It continuously loops through all of the coordinates, trying to send the attack. If coordinates match some hard-coded coordinates, then a report search is performed first,
 to check if there is any red report from those coordinates. If it is, a message is displayed on the console and the script continues with the next pair of coordinates, without 
